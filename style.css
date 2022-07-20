@@ -1,0 +1,119 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cardContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    border:1px lightgray solid;
+    padding:10px;
+    display: inline-block;
+}
+
+.cardBody{
+    border-bottom:1px lightgray solid;
+}
+
+.cardFooter{
+    padding-top:15px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+
+.description {
+    display: block;
+    font-size:12px;
+}
+
+
+.profilePic {
+    float:left;
+    display: inline;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%
+}
+
+.name {
+    display: inline;
+    padding-left: 10px;
+    padding-top: 80px;
+}
+
+.date{
+    padding-left: 60px;
+    display:block;
+    font-size: 12px;
+    max-width: 50%;
+}
+
+.socialNet{
+    display: inline;
+    float: right;
+    padding-top:15px
+}
+
+.like{
+    background:white;
+    border:none;
+    display:inline;
+}
+
+.likeCount{
+    display:inline;
+    font-size:12px;
+}
+
+#loadMore{
+    background: #2121ff;
+    color:white;
+    display: inline-block;
+    border:0;
+    padding:10px;
+    border-radius:4px;
+    margin:auto;
+}
+
+#butCont{
+    padding-top:20px;
+    width:8%;
+    margin:auto;
+}
+
+.hiddenStyle {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        display: inline-block;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .card{
+        display:inline-block;
+        width:45%;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .card{
+        width:100%;
+    }
+}
